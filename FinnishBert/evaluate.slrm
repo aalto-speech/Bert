@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#SBATCH --time=08:00:00
+#SBATCH --mem=100G
+#SBATCH --gres=gpu:1 
+#SBATCH --constraint=volta|pascal
+
+srun python Evaluate_on_last_segment.py
+

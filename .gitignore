@@ -1,0 +1,265 @@
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+#models
+*.pt
+#data
+data/
+-Ktrain/
+-Kdev/
+Segments/
+Segments2/
+*.log
+# C extensions
+*.so
+
+lm_cost_6_layer
+*.txt
+yle_nbest_1000
+
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+#slurm-outs
+*.out
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+LM-TFM-Ktrain
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+FinnishBert_1_1.tar
+FinnishBert_2.0/lm_cost
+FinnishBert_2.0/outputckpoints_0607_small/model.ckpt-90000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0607_small/model.ckpt-100000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0607_small/model.ckpt-80000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0607_small/model.ckpt-85000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0607_small/model.ckpt-95000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0807/model.ckpt-305000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0807/model.ckpt-315000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0807/model.ckpt-310000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0807/model.ckpt-295000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0807/model.ckpt-300000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0807/model.ckpt-320000_temp_e6fee81bdc8b4f85848f2f2c4ac757df/part-00000-of-00001.data-00000-of-00001.tempstate13579034503494604333
+FinnishBert_2.0/yle_nbest_1000_pre
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-270000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-240000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-370000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-400000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-330000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-290000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-150000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-140000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-160000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-440000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-30000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-340000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-280000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-500000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-230000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-50000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-190000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-310000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-200000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-130000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-20000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-60000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-40000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-380000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-480000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-180000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-110000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-430000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-90000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-100000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-450000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-80000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-250000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-70000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-420000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-170000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-410000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-300000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-210000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-260000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-470000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-120000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-460000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-350000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-320000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-490000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-220000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-360000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-10000.data-00000-of-00001
+FinnishBert_2.0/outputckpoints_0907/model.ckpt-390000.data-00000-of-00001
+FinnishBert_2.0/ac_cost_nbest_1000_pre
+FinnishBert_2.0/data/kielipankki_clean_train_300_final0607.tfrecord
+FinnishBert_2.0/data/kielipankki.train
+FinnishBert/yle_nbest_1000
+FinnishBert/outputckpoints_1506/lm_cost
+FinnishBert/outputckpoints_1506/model.ckpt-500000.data-00000-of-00001
+FinnishBert/outputckpoints_1506/Segments2/merged_op_2
+FinnishBert/outputckpoints_1506/model.ckpt-485000.data-00000-of-00001
+FinnishBert/outputckpoints_1506/model.ckpt-480000.data-00000-of-00001
+FinnishBert/outputckpoints_1506/lm_cost_final
+FinnishBert/outputckpoints_1506/model.ckpt-495000.data-00000-of-00001
+FinnishBert/outputckpoints_1506/model.ckpt-490000.data-00000-of-00001
+FinnishBert/outputckpoints_1506/Segments/merged_op_1
+FinnishBert/.git/objects/20/a6d881e8038d11739b977b5b08a6400dce40a9
+FinnishBert/.git/objects/17/e7c03ace62390da05dad4b6bd3280de30c7fed
+FinnishBert/.git/objects/08/c72c72d01f671930a1ed5e85880c034dc82467
+FinnishBert/.git/objects/1d/7796fc06671f6a0f36194f3ca3c539fa9502cf
+FinnishBert/.git/objects/fc/64614d96cea982032838fa3cf94906fbed4434
+FinnishBert/.git/objects/pack/pack-22de0721416470295bd4a0522ea2860bed171747.pack
+FinnishBert/.git/objects/pack/pack-5e49b475a385e9583f4562aa7045f34c23176f71.pack
+FinnishBert/.git/objects/pack/tmp_pack_33VRRB
+FinnishBert/.git/objects/35/5232f388bc60be2f7ce61381265f10bc263548
+FinnishBert/.git/objects/bd/486319fd8fbce2e71ad85cc445a0e64052848e
+FinnishBert/ac_cost_nbest_1000
+FinnishBert/outputckpoints_0207/model.ckpt-90000.data-00000-of-00001
+FinnishBert/outputckpoints_0207/model.ckpt-100000.data-00000-of-00001
+FinnishBert/outputckpoints_0207/model.ckpt-80000.data-00000-of-00001
+FinnishBert/outputckpoints_0207/model.ckpt-85000.data-00000-of-00001
+FinnishBert/outputckpoints_0207/model.ckpt-95000.data-00000-of-00001
+FinnishBert/Evalaute_on_dev/model.ckpt-300000.data-00000-of-00001
+FinnishBert/outputckpoints_2/model.ckpt-197000.data-00000-of-00001
+FinnishBert/outputckpoints_2/model.ckpt-199000.data-00000-of-00001
+FinnishBert/outputckpoints_2/model.ckpt-200000.data-00000-of-00001
+FinnishBert/outputckpoints_2/model.ckpt-198000.data-00000-of-00001
+FinnishBert/outputckpoints_2/model.ckpt-196000.data-00000-of-00001
+FinnishBert/outputckpoints_1206/model.ckpt-290000.data-00000-of-00001
+FinnishBert/outputckpoints_1206/model.ckpt-280000.data-00000-of-00001
+FinnishBert/outputckpoints_1206/model.ckpt-295000.data-00000-of-00001
+FinnishBert/outputckpoints_1206/model.ckpt-300000.data-00000-of-00001
+FinnishBert/outputckpoints_1206/model.ckpt-285000.data-00000-of-00001
+FinnishBert/kielipankki
+FinnishBert/kielipankki_clean_train_300_final.tfrecord
+FinnishBert/outputckpoints/model.ckpt-99000.data-00000-of-00001
+FinnishBert/outputckpoints/model.ckpt-96000.data-00000-of-00001
+FinnishBert/outputckpoints/model.ckpt-100000.data-00000-of-00001
+FinnishBert/outputckpoints/model.ckpt-98000.data-00000-of-00001
+FinnishBert/outputckpoints/model.ckpt-97000.data-00000-of-00001
+FinnishBert/kielipankki_clean_train_300_final0207.tfrecord
+FinnishBert/outputckpoints_1306/model.ckpt-290000.data-00000-of-00001
+FinnishBert/outputckpoints_1306/model.ckpt-280000.data-00000-of-00001
+FinnishBert/outputckpoints_1306/model.ckpt-295000.data-00000-of-00001
+FinnishBert/outputckpoints_1306/model.ckpt-300000.data-00000-of-00001
+FinnishBert/outputckpoints_1306/model.ckpt-285000.data-00000-of-00001
+FinnishBert/data/ac_cost
+FinnishBert/data/kielipankki
+FinnishBert/data/kielipankki_clean.train
+FinnishBert/data/text
+FinnishBert/data/kielipankki.train
+FinnishBert/data/kielipankki.xz
+FinnishBert/data/wordmap
+data/kielipankki
+data/kielipankki.train

@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#SBATCH --time=1-01:00:00
+#SBATCH --mem=50G
+#SBATCH --gres=gpu:1 
+#SBATCH --constraint=pascal
+
+
+srun python Evaluate_nbest1000_1507.py --input_segments=Segment3/yle_nbest_1000_pre_segav

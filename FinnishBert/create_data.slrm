@@ -1,0 +1,7 @@
+#!/bin/bash
+
+#SBATCH	--time=0-2:00:00
+#SBATCH --mem=50G
+#SBATCH --gres=gpu:1 
+#SBATCH --constraint=pascal
+srun python create_finnish_data_train_300.py

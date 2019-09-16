@@ -1,0 +1,9 @@
+#!/bin/bash
+
+#SBATCH --time=10:00:00
+#SBATCH --mem=50G
+#SBATCH --gres=gpu:1 
+#SBATCH --constraint=pascal|volta
+
+srun python Evaluate_nbest1000_0407.py
+
